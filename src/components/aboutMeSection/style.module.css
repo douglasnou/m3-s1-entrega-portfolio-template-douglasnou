@@ -1,0 +1,26 @@
+.aboutSection{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    gap: 3.125rem;
+
+    margin-top: 4.375rem;
+}
+
+.aboutParagraph{
+    max-width: 70%;
+}
+
+@media(max-width: 900px){
+    .aboutSection{
+        flex-direction: column;
+        align-items: flex-start;
+
+        max-width: 300px;
+    }
+
+    .aboutParagraph{
+        max-width: 300px;
+    }
+}

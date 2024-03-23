@@ -1,0 +1,49 @@
+.projectSection{
+    margin-top: 7.5rem;
+}
+
+.projectSubSection{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    gap: .875rem;
+    
+    margin-top: 1.875rem;
+}
+
+.projectCardTitle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.projectLink{
+    font-family: var(--font-main);
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--color-primary);
+    transition: 2s;
+}
+
+.projectLink:hover{
+    text-decoration: underline;
+    color: var(--color-primary-hover);
+    transition: 2s;
+}
+
+@media(max-width: 900px){
+    .projectSection{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        max-width: 300px;
+    }
+
+    .projectSubSection{
+
+        flex-direction: column;
+        align-items: center;
+        
+    }
+}

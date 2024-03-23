@@ -1,0 +1,23 @@
+.techSection{
+    margin-top: 7.5rem;
+}
+
+.techSubSection{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    gap: .80rem;
+
+    margin-top: 1.875rem;
+}
+
+@media(max-width: 900px){
+    .techSection{
+        flex-flow: column nowrap;
+        align-items: center;
+
+        max-width: 300px;
+        
+    }
+}

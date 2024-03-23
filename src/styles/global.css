@@ -1,0 +1,14 @@
+:root{
+    --color-primary: #6880FF;
+    --color-primary-hover: #7C91FF;
+
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+    --color-white-50: rgba(255, 255, 255, .5);
+
+    --font-main: "Inter", sans-serif;
+}
+
+body{
+    background: var(--color-black);
+}
